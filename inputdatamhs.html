@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Data Siswa</title>
+</head>
+<body><CENTER>
+<table width="400" border="1" bgcolor="silver">
+<tr>
+<td colspan="2">INPUT DATA MAHASISWA </td>
+</tr>
+<form method="post" action="prosestambah.php" enctype="multipart/form-data">
+<tr>
+<td width="175">NPM</td>
+<td><input name="txtnpm" type="text" id="txtnpm" size="10" /></td>
+</tr>
+<tr>
+<td>NAMA</td>
+<td><input name="txtnm_mahasiswa" type="text" id="txtnm_mahasiswa" size="25"
+/></td>
+</tr>
+<tr>
+<td>JENIS KELAMIN</td>
+<td width="300"><select name="cbjk" id="txtjk">
+<option value="-">-</option>
+<option value="L">LAKI-LAKI</option>
+<option value="P">PEREMPUAN</option>
+</select></td>
+</tr>
+<tr>
+<td>KELAS</td>
+<td><input name="txtkelas" type="text" id="txtkelas" size="25" /></td>
+</tr>
+<tr><CENTER>
+<td colspan="2">
+<input name="BtnSave" type="submit" id="BtnSave" value="Save" />
+<input name="BtnBatal" type="reset" id="BtnBatal" value="Cancel" />
+</td></CENTER>
+</tr>
+</table></CENTER>
+</form></body>
+</html>
